@@ -10,5 +10,5 @@ async def read_root():
 
 async def get_users():
    response= requests.get("https://jsonplaceholder.typicode.com/users")
-   print(response)
+   
    return response.json()
